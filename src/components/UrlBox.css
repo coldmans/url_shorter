@@ -1,0 +1,31 @@
+.con {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.url-box {
+    width: 40vw;
+    padding: 10px;
+    margin-right: 10px;
+    /* 버튼과 입력 필드 사이의 간격을 추가 */
+}
+
+.url-button {
+    height: 45px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FA8EE5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
