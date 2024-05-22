@@ -15,7 +15,9 @@ const UrlList = ({ urlList, onRemoveUrl }) => {
                         <div><a href={urlData.originUrl} target="_blank" rel="noopener noreferrer">{urlData.originUrl}</a></div>
                         <h5>Short URL: </h5>
                         <div><a href={`http://localhost:8000/short-links/${urlData.hash}`} target="_blank" rel="noopener noreferrer">{`http://localhost:8000/short-links/${urlData.hash}`}</a>
-                            <button onClick={() => copyToClipboard(`http://localhost:8000/short-links/${urlData.hash}`)}>Copy</button>
+                            <button className="copy-btn" onClick={() => copyToClipboard(`http://localhost:8000/short-links/${urlData.hash}`)}>
+                                <img src="./assets/copy.png" />
+                            </button>
                         </div>
 
                     </div>
